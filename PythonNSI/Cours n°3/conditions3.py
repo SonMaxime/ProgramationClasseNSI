@@ -1,4 +1,4 @@
-code = int(input("COde de la porte ? "))
+code = int(input("Code de la porte ? "))
 
 if code == 7325:
     print("Porte ouverte")

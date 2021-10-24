@@ -1,0 +1,35 @@
+@font-face {
+    font-family: bold;
+    src: url('assests/OpenSans-Bold.ttf');
+}
+
+body {
+    background-color: black;
+}
+
+p {
+    color: aquamarine;
+    text-align: center;
+    font-family: bold;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    color: blanchedalmond;
+    font-family: bold;
+}
+
+.binks {
+    color: darkgreen;
+    font-family: bold;
+}
+
+.paragraphe2 {
+    color: brown;
+    font-family: bold;
+}
+
+.stats1 {
+    padding-left: 500px;
+}
