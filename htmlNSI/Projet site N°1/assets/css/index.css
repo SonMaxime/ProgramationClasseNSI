@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'Questrian';         /* Nom de la police */
+    src: url('./../fonts/Questrian.otf');
+}
+
+body {
+    background-image: url('./../images/background.jpg');
+}
+
+.menu {
+    display: flex;
+    padding: 0;                   /* Suppression des marges internes */
+    justify-content: right        /* Alignements des liens dans le menu */
+}
+
+.menu li {
+    list-style-type: none ;       /* Suppression des points */
+}
+
+.menu a {
+    font-family: 'Questrian';
+    display:block;              
+    min-width: 120px;             /* Largeur minimale des liens */   
+    margin: 0.5rem;               /* Marges externes */
+    padding: 0.4rem 0;            /* Marges internes */
+    text-align: center;           /* Centrage du texte */   
+    background-color: #1ABC9C;  /* Couleur d'arrière-plan */
+    color: #fff;                /* Couleur du texte dans les boites */
+    text-decoration: none;        /*Empèche l'apparition de trait en dessous des liens */
+    border: 1px solid #fff;
+    border-radius: 4px;
+    transition: all 1s ;          /* Dissipation progressive de la couleur du bouton quand le curseur n'es plus positionné dessus. */
+}
+
+.menu a:hover {
+    background-color: rgba(133, 175, 54, 0.5);
+    color: #ffe843;
+    border-color: #ffe843;        /* Couleur des bords des boutons */
+}
+
+h1 {
+    font-family: 'Questrian';       /* Police du titre */
+}
+
+.btn {
+    background-color: DodgerBlue; /* Couleur de background du bouton */
+    color: white;                 /* Couleur du texte sur le bouton */
+    padding: 10px 25px;             /* Taille du bouton */
+    border: none;                   /* Retire les bordures du bouton */
+    font-size: 20px;                /* Taille du texte dans le bouton */
+    position: absolute;             /* Positionne le bouton à un endroit précis */
+    bottom: 200px;
+    left: 575px;
+}
+
+.btn:hover {
+    background-color: RoyalBlue;  /* Change la couleur du bouton quand le curseur est positionné sur ce dernier */
+}
+
+
+.conteneurHome {
+    font-family: 'Questrian';     /* Police du paragraphe */
+    font-size: 15px;              /* Taille du paragraphe*/
+    float: left;                  /* Position du texte */
+    color: rgb(50, 50, 212);    /* Couleur du texte*/
+    padding: 30px;                /* Mise en paragraphe du texte */
+    width: 1000px;
+}
+
+.conteneurAbout {
+    font-family: 'Questrian';     /* Police du paragraphe */
+    font-size: 15px;              /* Taille du paragraphe*/
+    float: left;                  /* Position du texte */
+    color: black;               /* Couleur du texte*/
+    padding: 0 30px;              /* Mise en paragraphe du texte */
+}
+
+img {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.traitHorizontal { /* Trait entre le paragraphe et le mini menu à droite dans l'index*/
+    position: absolute;
+    top: 190px;
+    left: 1050px;
+}
+
+/* Menu situé à droite dans l'index */
+
+.menuDroite {
+    position: absolute;
+    top: 170px;
+    right: 90px;
+    padding: 20px;
+    font-size: 12px;
+    border-left: #8c8484;
+}
+
+.menuDroiteTitre {
+    font-size: 20px;
+    font-family: 'Questrian';
+    padding: 0 10px;
+    color: #a4000b
+}
+
+.menuDroiteLink {
+    font-family: 'Questrian';
+    font-size: 15px;
+}
+
+/* Personnages */
+
+.contentCharacter1Name {
+    position: left;
+    font-family: 'Questrian';
+    padding-left: 30px;
+    color: #a4000b
+}
+
+.contentCharacter1 {
+    position: left;
+    font-family: 'Questrian';
+    width: 900px;
+    padding-left: 30px;
+}
+
+.contentCharacter2Name {
+    position: left;
+    font-family: 'Questrian';
+    padding-left: 30px;
+    color: #a4000b
+}
+
+.contentCharacter2 {
+    position: left;
+    font-family: 'Questrian';
+    width: 900px;
+    padding-left: 30px;
+}
+
+.contentCharacter3Name {
+    position: left;
+    font-family: 'Questrian';
+    padding-left: 30px;
+    color: #a4000b
+}
+
+.contentCharacter3 {
+    position: left;
+    font-family: 'Questrian';
+    width: 900px;
+    padding-left: 30px;
+}
+
+/* Nouveautés */
+
+.h2alpha {
+    font-family: 'Questrian';
+    position: relative;
+    left: 30px;
+}
+
+.conteneurAlpha {
+    font-family: 'Questrian';
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+}
+
+.h2beta1 {
+    font-family: 'Questrian';
+    position: relative;
+    left: 30px;
+}
+
+.conteneurBeta1 {
+    font-family: 'Questrian';
+    font-size: 15px;
+    position: relative;
+    left: 30px;
+}
+
+/* Gif du chat en bas de page */
+
+.gifChat {
+    position: absolute;
+    top: 582px;
+    left: 1250px;
+    height: 50px;
+    width: 100px;
+}
+
+/* Footer du site */
+
+.footer{
+    font-size: 12px;                          /* Taille de la police */
+    font-family: Verdana;                     /* Police du footer */
+    color: #333;                            /* Couleur du footer */
+    height: 20px;                              
+    line-height: 20px;
+    vertical-align: middle;
+    width: 100%;
+    position: absolute;                       /* Permets de positionner le footer sur un endroit précis. */
+    bottom:0px;                               /* Mets le footer en bas de la page */
+    left: 20px;
+}
